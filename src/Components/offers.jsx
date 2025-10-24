@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 const Offers = () => {
-  const offers = [
+  const offer = [
     {
       title: "Get 50% Off on Fruits & Veggies 🍎",
       img: "https://ik.imagekit.io/blinkit/fruits-vegetables.webp",
@@ -27,7 +27,7 @@ const Offers = () => {
           Trending Offers 🔥
         </h2>
         <Row>
-          {offers.map((offer, index) => (
+          {offer.map((offer, index) => (
             <Col md={4} key={index} className="mb-4">
               <Card className="shadow-sm border-0 h-100">
                 <Card.Body className="text-center">
